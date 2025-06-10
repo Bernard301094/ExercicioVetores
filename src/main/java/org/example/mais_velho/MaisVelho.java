@@ -46,6 +46,7 @@ public class MaisVelho {
             }
         }
 
+        scanner.close();
         System.out.println("PESSOA MAIS VELHA: " + pessoas.get(indiceMaisVelho).get(0));
     }
 }
